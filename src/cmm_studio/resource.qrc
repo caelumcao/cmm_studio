@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>images/new.png</file>
+        <file>images/open.png</file>
+        <file>qss/style.qss</file>
+        <file>qss/down_arrow.png</file>
+        <file>qss/down_arrow_hover.png</file>
+        <file>qss/left_arrow.png</file>
+        <file>qss/left_arrow_hover.png</file>
+        <file>qss/right_arrow.png</file>
+        <file>qss/right_arrow_hover.png</file>
+        <file>qss/up_arrow.png</file>
+        <file>qss/up_arrow_hover.png</file>
+        <file>images/dir.png</file>
+        <file>images/file.png</file>
+        <file>images/debug_arrow.png</file>
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/exit.png</file>
+        <file>images/paste.png</file>
+        <file>images/save.png</file>
+        <file>images/saveAs.png</file>
+        <file>images/debug.png</file>
+        <file>images/run.png</file>
+        <file>examples/for.cmm</file>
+        <file>examples/helloworld.cmm</file>
+        <file>examples/ifelse.cmm</file>
+        <file>examples/pointer.cmm</file>
+        <file>examples/read.cmm</file>
+        <file>examples/sort.cmm</file>
+        <file>examples/variable.cmm</file>
+        <file>examples/while.cmm</file>
+        <file>images/stop_debug.png</file>
+        <file>examples/printstar.cmm</file>
+        <file>examples/char.cmm</file>
+        <file>examples/function.cmm</file>
+    </qresource>
+</RCC>

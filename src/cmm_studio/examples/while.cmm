@@ -1,0 +1,13 @@
+//while
+void main()
+{
+	char ch[10] = "hello";
+	int i = 0;
+	while (i < 10)
+	{
+		write(ch[i]);
+		write(" ");
+		i = i + 1;
+	}
+	write("\n");
+}

@@ -1,0 +1,13 @@
+//read
+void main()
+{
+	char ch = '';
+	while (ch <> 'q')
+	{
+		write("please input a character: ");
+		read(ch);
+		write("ch = ");
+		write(ch);
+		write("\n");
+	}
+}

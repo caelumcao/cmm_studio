@@ -1,0 +1,31 @@
+//sort
+void sort(int arr[], int size)
+{
+	int i;
+	int j;
+	for (i = 0; i < size - 1; i = i + 1)
+	{
+		for (j = 0; j < size - i - 1; j = j + 1)
+		{
+			if (arr[j] > arr[j + 1])
+			{
+				int temp = arr[j];
+				arr[j] = arr[j + 1];
+				arr[j + 1] = temp;
+			}
+		}
+	}
+}
+
+void main()
+{
+	int a[10] = {1, 3, 5, 7, 9, 2, 4, 6, 8, 10};
+	sort(a, 10);
+	int i;
+	for (i = 0; i < 10; i = i + 1)
+	{
+		write(a[i]);
+		write(" ");
+	}
+	write("\n");
+}

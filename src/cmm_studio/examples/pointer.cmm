@@ -1,0 +1,25 @@
+//pointer
+void main()
+{
+	int a = 1;
+	int * pa = &a;
+	write("a = ");
+	write(a);
+	write("\npa = ");
+	write(pa);
+	write("\n&a = ");
+	write(&a);
+	int b = 2;
+	int c = 3;
+	int * pointArr[3] = {&a, &b, &c};
+	int i;
+	write("\npointArr:\n");
+	for (i = 0; i < 3; i = i + 1)
+	{
+		write("address: ");
+		write(pointArr[i]);
+		write("	value: ");
+		write(*pointArr[i]);
+		write("\n");
+	}
+}

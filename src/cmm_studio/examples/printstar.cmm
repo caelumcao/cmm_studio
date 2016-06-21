@@ -1,0 +1,21 @@
+//printstar
+int maxLine = 5;
+
+void printstar(int n)
+{
+	if (n <= maxLine)
+	{
+		int i;
+		for (i = 0; i < maxLine - n; i = i + 1)
+			write(" ");
+		for (i = 0; i < 2 * n - 1; i = i + 1)
+			write("*");
+		write("\n");
+		printstar(n + 1);
+	}
+}
+
+void main()
+{
+	printstar(1);
+}

@@ -1,0 +1,23 @@
+//variable
+void main()
+{
+	int a = 1;
+	real b = 2.2;
+	char c = 'a';
+	int d[3] = {1, 2, 3};
+	real e[4] = {1.0, 2.0, 3.0};
+	char f[10] = "hello";
+	write("a = ");
+	write(a);
+	write("\nb = ");
+	write(b);
+	write("\nc = ");
+	write(c);
+	write("\nd[0] = ");
+	write(d[0]);
+	write("\ne[1] = ");
+	write(e[1]);
+	write("\nf = ");
+	write(f);
+	write("\n");
+}

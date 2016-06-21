@@ -1,0 +1,10 @@
+//if else
+void main()
+{
+	char * str = "hello";
+	char ch[10] = "hello";
+	if (str == ch)
+		write("str == ch");
+	else 
+		write("str != ch");
+}

@@ -1,0 +1,22 @@
+// char 
+
+void main()
+{
+	char a[6] = "hello";
+	write("a = ");
+	write(a);
+	char b[5] = {'h', 'e', 'l', 'l', 'o'};
+	write("\nb = ");
+	write(b);
+	write("\n");
+	char *pa = a;
+	write(*pa);
+	int i;
+	for (i = 0; i < 5; i = i + 1)
+	{	
+		write(", ");
+		pa = pa + 1;
+		write(*pa);
+	}
+	write("\n");
+}

@@ -1,0 +1,49 @@
+//function
+
+char * ch = "hello world";
+
+void fun1()
+{
+	write("in fun1:\n");
+}
+
+void fun2(int a)
+{
+	write("in fun2:\n");
+	write("a = ");
+	write(a);
+	write("\n");
+}
+
+int fun3(int b, int c)
+{
+	write("in fun3:\n");
+	write("b + c = ");
+	write(b + c);
+	write("\n");
+	if (b + c > 0)
+		return b + c;
+	else
+		return -(b + c);
+}
+
+char * fun4()
+{
+	return ch;
+}
+
+
+void main()
+{
+	fun1();
+	fun2(2);
+	int returnValue = fun3(1, 2);
+	write("in main:\nreturnValue = ");
+	write(returnValue);
+	char * pc = fun4();
+	write("\npc = ");
+	write(pc);
+	write("\n*pc = ");
+	write(*pc);
+	write("\n");
+}
