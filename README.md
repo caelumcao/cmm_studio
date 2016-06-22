@@ -1,7 +1,7 @@
 # cmm_studio
 CMM解释器; 开发环境:Qt creator 5.3;
 
-1.初始窗口
+1.初始窗口\n
 ![image](http://github.com/optcaelum/cmm_studio/raw/master/images/1.png)
 2.菜单栏
 ![image](http://github.com/optcaelum/cmm_studio/raw/master/images/2.png)
