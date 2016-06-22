@@ -2,7 +2,7 @@
 CMM解释器; 开发环境:Qt creator 5.3;
 
 1.初始窗口<br/>
-![image](http://github.com/optcaelum/cmm_studio/raw/master/images/1.png)
+![image](https://github.com/optcaelum/cmm_studio/raw/master/images/1.png)
 2.菜单栏<br/>
 ![image](http://github.com/optcaelum/cmm_studio/raw/master/images/2.png)
 3.打开文件窗口<br/>
